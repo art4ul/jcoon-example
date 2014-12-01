@@ -101,6 +101,15 @@
         </dependency>
 
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>oss-sonatype-staging</id>
+            <name>sonatype</name>
+            <url>https://oss.sonatype.org/content/groups/staging</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
